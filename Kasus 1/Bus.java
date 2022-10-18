@@ -44,6 +44,7 @@ class Scania extends Bus{
       }
       
       //overriding
+      @Override
       void engineCapacity(){
             System.out.println("Kapasitas CC mesin Scania : 8000cc");
       }
